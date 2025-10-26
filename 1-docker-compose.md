@@ -35,6 +35,9 @@ Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
 docker compose up -d
 ```
 
+<img width="1091" height="584" alt="image" src="https://github.com/user-attachments/assets/1c9cb868-5d5c-43b9-ab5b-d01e299e48cd" />
+
+
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
 ```
@@ -47,7 +50,18 @@ docker compose ps
 ```
 ### COMPLETAR CON UNA CAPTURA DE PANTALLA DEL LISTADO DE LOS CONTENEDORES EN EJECUCIÓN
 
+<img width="1896" height="150" alt="image" src="https://github.com/user-attachments/assets/5932cf36-3139-46c2-9052-0f496f5ddb72" />
+
+<img width="1891" height="1128" alt="image" src="https://github.com/user-attachments/assets/9f3d2c18-8182-4d71-9d97-6984f3ccabcf" />
+
+
+
 ### Detener y eliminar los contenedores definidos en el archivo
 ```
 docker compose down
 ```
+
+<img width="1895" height="166" alt="image" src="https://github.com/user-attachments/assets/84d36b2d-360b-4d4d-a075-1c6a0b93883b" />
+
+Se eliminan los contenedores pero no los volumenes
+
